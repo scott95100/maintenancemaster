@@ -1,16 +1,19 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
     <h1>All of the Machines</h1>
     <hr/>
-    <a href="/machines/create">Add a New Machine!</a>
-    <hr />
-    {% for machine in machines %}
-        <a href="/machines/{{machine.id}}">
-        <p>Name: {{ machine.name }}</p>
-        </a>
-        <hr/>
-    {% endfor %}
+    <section class = "form-section">
+        <a href="/machines/create">Add a New Machine!</a>
+        <hr />
+        {% for machine in machines %}
+            <a href="/machines/{{machine.id}}">
+            <p>{{ machine.name }}</p>
+            </a>
+            <hr/>
+        {% endfor %}
+    </section>
 
 
 {% endblock %}
