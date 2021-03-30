@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>All of the Machines</h1>
+    <hr/>
+    <a href="/machines/create">Add a New Machine!</a>
+    <hr />
+    {% for machine in machines %}
+        <a href="/machines/{{machine.id}}">
+        <p>Name: {{ machine.name }}</p>
+        </a>
+        <hr/>
+    {% endfor %}
+
+
+{% endblock %}
