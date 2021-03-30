@@ -1,7 +1,7 @@
 h1 {
+    font-family: Copperplate, Papyrus, fantasy;
     display: inline-block;
     margin-left: 0;
-    
     color: rgb(77, 182, 218);
     background-color:white;
 }
@@ -36,4 +36,15 @@ main {
 }
 .form-section {
     background-color: white;
+}
+
+.container {
+    background-color: lightgrey;
+    opacity: .98;
+    border: 12px solid darkgrey;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    
+    
 }
