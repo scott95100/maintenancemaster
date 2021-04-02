@@ -1,3 +1,8 @@
+
+
+.form-section {
+    font-size: 20px;
+}
 .navbar-fixed {
     
     transform: translateY(-90%);
@@ -18,9 +23,6 @@
     height: 5px;
 }
 
-.page-footer {
-    
-}
 
 
 h1 {
@@ -34,8 +36,10 @@ h1 {
 a {
     color: black;
     text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
-nav li > a {
+nav li  > a {
     
     color: white;
 }
@@ -73,4 +77,174 @@ main {
     border-radius: 50px;
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-around;
+    
+}
+
+.about-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    display: flex; 
+    justify-content: flex-around;
+    flex-direction: column;
+}
+
+
+
+
+
+
+/* all the gear CSS */
+
+
+
+
+.gear-container{
+    min-width: 320px;
+    max-width: 980px;
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    position: relative;
+    min-height: 320px;
+}
+/* Frames CSS3 */
+@-webkit-keyframes ckw {
+    0% {
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes ckw {
+    0% {
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes cckw {
+    0% {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+    100% {
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+}
+@-moz-keyframes cckw {
+    0% {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+    100% {
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+.gear {
+    float: none;
+    position: absolute;
+    text-align: center;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+}
+#gear1 {
+    background: url('http://www.rudebox.org.ua/demo/animated-mechanism-using-css3/images/g1.png') no-repeat 0 0;
+    height: 85px;
+    left: 31px;
+    top: 45px;
+    width: 85px;
+    -moz-animation-name: ckw;
+    -moz-animation-duration: 10s;
+    -webkit-animation-name: ckw;
+    -webkit-animation-duration: 10s;
+}
+#gear2 {
+    background: url('http://www.rudebox.org.ua/demo/animated-mechanism-using-css3/images/g2.png') no-repeat 0 0;
+    height: 125px;
+    left: 105px;
+    top: 10px;
+    width: 125px;
+    -moz-animation-name: cckw;
+    -moz-animation-duration: 16.84s;
+    -webkit-animation-name: cckw;
+    -webkit-animation-duration: 16.84s;
+}
+#gear3 {
+    background: url('http://www.rudebox.org.ua/demo/animated-mechanism-using-css3/images/g3.png') no-repeat 0 0;
+    height: 103px;
+    left: 149px;
+    top: 118px;
+    width: 103px;-moz-animation-name: ckw;
+    -moz-animation-duration: 13.5s;
+    -webkit-animation-name: ckw;
+    -webkit-animation-duration: 13.5s;
+}
+#gear4 {
+    background: url('http://www.rudebox.org.ua/demo/animated-mechanism-using-css3/images/g4.png') no-repeat 0 0;
+    height: 144px;
+    left: 46px;
+    top: 173px;
+    width: 144px;
+    -moz-animation-name: cckw;
+    -moz-animation-duration: 20.2s;
+    -webkit-animation-name: cckw;
+    -webkit-animation-duration: 20.2s;
+}
+#gear5 {
+    background: url('http://www.rudebox.org.ua/demo/animated-mechanism-using-css3/images/g1.png') no-repeat 0 0;
+    height: 85px;
+    left: 127px;
+    top: 292px;
+    width: 85px;-moz-animation-name: ckw;
+    -moz-animation-duration: 10s;
+    -webkit-animation-name: ckw;
+    -webkit-animation-duration: 10s;
+}
+#gear6 {
+    background: url('http://www.rudebox.org.ua/demo/animated-mechanism-using-css3/images/g2.png') no-repeat 0 0;
+    height: 125px;
+    left: 200px;
+    top: 283px;
+    width: 125px;
+    -moz-animation-name: cckw;
+    -moz-animation-duration: 16.84s;
+    -webkit-animation-name: cckw;
+    -webkit-animation-duration: 16.84s;
+}
+#gear7 {
+    background: url('http://www.rudebox.org.ua/demo/animated-mechanism-using-css3/images/g3.png') no-repeat 0 0;
+    height: 103px;
+    left: 277px;
+    top: 217px;
+    width: 103px;
+    -moz-animation-name: ckw;
+    -moz-animation-duration: 13.5s;
+    -webkit-animation-name: ckw;
+    -webkit-animation-duration: 13.5s;
 }

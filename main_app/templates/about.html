@@ -1,5 +1,29 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a lorem non elit interdum congue ut vitae nibh. Nam maximus laoreet dui, hendrerit auctor ex convallis faucibus. Morbi posuere id nulla vitae facilisis. Morbi fermentum libero in varius malesuada. Cras condimentum lobortis neque, eu auctor dolor interdum quis. Nulla nec facilisis ante, vel efficitur nibh. Quisque venenatis augue condimentum nisi mollis rhoncus sit amet et leo.Sed eget ornare neque. Morbi pulvinar ante vitae tellus hendrerit mollis. Nullam ut gravida nulla. Donec sed dolor ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque varius risus et dui lacinia, aliquet finibus est eleifend. Ut consequat dictum lacus in elementum. Nullam pretium varius maximus. Aliquam finibus aliquet diam, quis maximus diam sollicitudin vitae. Suspendisse sed suscipit est.</p>
+    <div class="about-container">
+        <h1>Maintenance Master</h1>
+        <p style='color:white; font-size: 20px;'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a lorem non elit interdum congue ut vitae nibh. Nam maximus laoreet dui, hendrerit auctor ex convallis faucibus. Morbi posuere id nulla vitae facilisis. Morbi fermentum libero in varius malesuada. Cras condimentum lobortis neque, eu auctor dolor interdum quis. Nulla nec facilisis ante, vel efficitur nibh. Quisque venenatis augue condimentum nisi mollis rhoncus sit amet et leo.Sed eget ornare neque. Morbi pulvinar ante vitae tellus hendrerit mollis. Nullam ut gravida nulla. Donec sed dolor ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque varius risus et dui lacinia, aliquet finibus est eleifend. Ut consequat dictum lacus in elementum. Nullam pretium varius maximus. Aliquam finibus aliquet diam, quis maximus diam sollicitudin vitae. Suspendisse sed suscipit est.</p>
+        
+            <div class="developer-container">
+                <h3>About the Developer</h3>
+                <img src="https://avatars.githubusercontent.com/u/77864402?v=4" width="100" height="100">
+                    <div class="developer-writeup">
+                        <p>I am a process driven full stack software engineer. I strive to improve and implement meaningful solutions. I am driven by a desire to overcome obstacles, the more complex of a problem the better. Working in the Insurance industry gave me the ability to overcome stressful, time sensitive situations that often required meaningful group efforts to accomplish desired outcomes. This business evolved ability has empowered me to be successful in the Tech Industry.</p>
+                    </div>
+                    <FORM>
+                        <INPUT TYPE="button" VALUE="Email Me" onClick="parent.location='mailto:scott95100@gmail.com?subject=Maintenance Master'">
+                    </FORM>
+                <div class="link-container">
+                    <a href='https://github.com/scott95100'>
+                        <button style="font-size:24px">Check Out My Github | <i class="fa fa-github"></i></button>
+                    </a>
+                    <p>  -----  </p>
+                    <a href='https://www.linkedin.com/in/scott-sherwood-515114204/'>
+                        <button style="font-size:24px">Check Out My LinkedIn | <i class="fa fa-linkedin"></i></button>
+                    </a>
+                </div>
+            </div>
+    </div>
 {% endblock %}
